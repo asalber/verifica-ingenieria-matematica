@@ -23,8 +23,8 @@ actividades <- read_csv("datos/actividades-formativas.csv") %>%
 
 for (i in asignaturas$Código) {
   asignatura <- asignaturas %>% filter(Código == i)
-  rmarkdown::render("plantilla-asignatura.Rmd",
-                    output_file =  paste0(asignatura$Asignatura, ".html"),
+  rmarkdown::render("asignaturas/plantilla-asignatura.Rmd",
+                    output_file =  paste0(gsub(" ", "-", tolower(asignatura$Asignatura)), ".html"),
                     output_dir = 'asignaturas')
 }
   

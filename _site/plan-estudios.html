@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Plan de estudios</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ingeniería Matemática</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Inicio</a>
+</li>
+<li>
+  <a href="plan-estudios.html">Plan de Estudios</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Plan de estudios</h1>
+
+</div>
+
+
+<div id="primer-curso" class="section level1">
+<h1>Primer curso</h1>
+<div id="primer-semestre" class="section level2">
+<h2>Primer semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/fundamentos-de-matem%C3%A1ticas.html" style="     ">Fundamentos
+de Matemáticas</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/an%C3%A1lisis-i.html" style="     ">Análisis I</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/%C3%A1lgebra-lineal.html" style="     ">Álgebra
+Lineal</a>
+</td>
+<td style="text-align:right;">
+9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/matem%C3%A1tica-discreta.html" style="     ">Matemática
+Discreta</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/programaci%C3%B3n.html" style="     ">Programación</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="segundo-semestre" class="section level2">
+<h2>Segundo semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/an%C3%A1lisis-ii.html" style="     ">Análisis
+II</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/probabilidad-y-estad%C3%ADstica.html" style="     ">Probabilidad
+y Estadística</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/algoritmos-y-estructuras-de-datos.html" style="     ">Algoritmos
+y Estructuras de Datos</a>
+</td>
+<td style="text-align:right;">
+9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/claves-de-historia-contempor%C3%A1nea.html" style="     ">Claves
+de Historia Contemporánea</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/proyecto-i.html" style="     ">Proyecto I</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="segundo-curso" class="section level1">
+<h1>Segundo curso</h1>
+<div id="primer-semestre-1" class="section level2">
+<h2>Primer semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/an%C3%A1lisis-iii.html" style="     ">Análisis
+III</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/ecuaciones-diferenciales-y-en-diferencias.html" style="     ">Ecuaciones
+Diferenciales y en Diferencias</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/bases-de-datos.html" style="     ">Bases de
+Datos</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/estad%C3%ADstica-inferencial.html" style="     ">Estadística
+Inferencial</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="segundo-semestre-1" class="section level2">
+<h2>Segundo semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/geometr%C3%ADa-diferencial.html" style="     ">Geometría
+Diferencial</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/m%C3%A9todos-num%C3%A9ricos-i.html" style="     ">Métodos
+Numéricos I</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/electr%C3%B3nica-digital-y-arquitectura-de-ordenadores.html" style="     ">Electrónica
+Digital y Arquitectura de Ordenadores</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/ecuaciones-en-derivadas-parciales.html" style="     ">Ecuaciones
+en Derivadas Parciales</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/an%C3%A1lisis-de-datos.html" style="     ">Análisis
+de Datos</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/proyecto-ii.html" style="     ">Proyecto II</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="tercer-curso-mención-en-análisis-cuantitativo-y-finanzas"
+class="section level1">
+<h1>Tercer curso (Mención en Análisis Cuantitativo y Finanzas)</h1>
+<div id="primer-semestre-2" class="section level2">
+<h2>Primer semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/sistemas-operativos-y-redes-de-ordenadores.html" style="     ">Sistemas
+Operativos y Redes de Ordenadores</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/optimizaci%C3%B3n.html" style="     ">Optimización</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/m%C3%A9todos-num%C3%A9ricos-ii.html" style="     ">Métodos
+Numéricos II</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="segundo-semestre-2" class="section level2">
+<h2>Segundo semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/aprendizaje-autom%C3%A1tico.html" style="     ">Aprendizaje
+Automático</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/computaci%C3%B3n-en-paralelo.html" style="     ">Computación
+en paralelo</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/c%C3%A1lculo-estoc%C3%A1stico.html" style="     ">Cálculo
+Estocástico</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/matem%C3%A1tica-financiera-i.html" style="     ">Matemática
+Financiera I</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/matem%C3%A1ticas-actuariales.html" style="     ">Matemáticas
+Actuariales</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="tercer-curso-mención-en-inteligencia-artificial"
+class="section level1">
+<h1>Tercer curso (Mención en Inteligencia Artificial)</h1>
+<div id="primer-semestre-3" class="section level2">
+<h2>Primer semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/sistemas-operativos-y-redes-de-ordenadores.html" style="     ">Sistemas
+Operativos y Redes de Ordenadores</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/optimizaci%C3%B3n.html" style="     ">Optimización</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/m%C3%A9todos-num%C3%A9ricos-ii.html" style="     ">Métodos
+Numéricos II</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="segundo-semestre-3" class="section level2">
+<h2>Segundo semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/aprendizaje-autom%C3%A1tico.html" style="     ">Aprendizaje
+Automático</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/computaci%C3%B3n-en-paralelo.html" style="     ">Computación
+en paralelo</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/l%C3%B3gica-formal.html" style="     ">Lógica
+Formal</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/teor%C3%ADa-de-la-computaci%C3%B3n.html" style="     ">Teoría
+de la Computación</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/fundamentos-de-la-inteligencia-artificial.html" style="     ">Fundamentos
+de la Inteligencia Artificial</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="cuarto-curso-mención-en-análisis-cuantitativo-y-finanzas"
+class="section level1">
+<h1>Cuarto curso (Mención en Análisis Cuantitativo y Finanzas)</h1>
+<div id="primer-semestre-4" class="section level2">
+<h2>Primer semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/matem%C3%A1tica-financiera-ii.html" style="     ">Matemática
+Financiera II</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/miner%C3%ADa-de-datos-y-big-data.html" style="     ">Minería
+de Datos y Big Data</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/modelos-de-riesgo-cuantitativo.html" style="     ">Modelos
+de Riesgo Cuantitativo</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/teor%C3%ADa-y-optimizaci%C3%B3n-de-carteras.html" style="     ">Teoría
+y optimización de carteras</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/series-temporales.html" style="     ">Series
+Temporales</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="segundo-semestre-4" class="section level2">
+<h2>Segundo semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Doctrina Social de la Iglesia
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Prácticas externas
+</td>
+<td style="text-align:right;">
+12
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Trabajo Fin de Grado
+</td>
+<td style="text-align:right;">
+9
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="cuarto-curso-mención-en-inteligencia-artificial"
+class="section level1">
+<h1>Cuarto curso (Mención en Inteligencia Artificial)</h1>
+<div id="primer-semestre-5" class="section level2">
+<h2>Primer semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/programaci%C3%B3n-l%C3%B3gica.html" style="     ">Programación
+Lógica</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/programaci%C3%B3n-funcional.html" style="     ">Programación
+Funcional</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/percepci%C3%B3n-computacional.html" style="     ">Percepción
+Computacional</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/procesamiento-de-lenguaje-natural.html" style="     ">Procesamiento
+de Lenguaje Natural</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/administraci%C3%B3n-de-sistemas.html" style="     ">Administración
+de sistemas</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="segundo-semestre-5" class="section level2">
+<h2>Segundo semestre</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/doctrina-social-de-la-iglesia.html" style="     ">Doctrina
+Social de la Iglesia</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/pr%C3%A1cticas-externas.html" style="     ">Prácticas
+externas</a>
+</td>
+<td style="text-align:right;">
+12
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/trabajo-fin-de-grado.html" style="     ">Trabajo
+Fin de Grado</a>
+</td>
+<td style="text-align:right;">
+9
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

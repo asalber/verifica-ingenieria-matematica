@@ -4,7 +4,6 @@ navbar:
   left:
     - text: "Inicio"
       href: index.html
-    - text: "Asignaturas"
-      href: asignaturas.html
-    - text: "Autor"
-      href: about.html
+    - text: "Plan de Estudios"
+      href: plan-estudios.html
+
