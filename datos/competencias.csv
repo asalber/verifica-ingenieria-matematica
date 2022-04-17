@@ -1,0 +1,55 @@
+Id,Descripción
+CB01,"Que los estudiantes sepan poseer y comprender los conocimientos en un área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio."
+CB02,Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio
+CB03,"Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética"
+CB04,"Que los estudiantes puedan trasmitir información, ideas problemas y soluciones a un público tanto especializado como no especializado"
+CB05,Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía
+CG01,"Dominar el uso el lenguaje matemático para expresar ideas, proposiciones y demostraciones matemáticas."
+CG02,Aplicar los aprendizajes adquiridos en materias relacionadas en proyectos transversales desarrollados en equipo.
+CE01,Usar lenguajes de procesamiento de textos matemáticos para la elaboración de documentos científico-técnicos.
+CE02,Reconocer qué problemas del ámbito de las ciencias y la ingeniería son susceptibles de resolverse con técnicas matemáticas analíticas y cuáles requieren técnicas computacionales.
+CE03,Describir un problema de forma abstracta para facilitar su análisis y resolución con técnicas matemáticas o computacionales.
+CE04,Formular hipótesis matemáticas en el ámbito de las Ciencias y la Ingeniería  y usar las técnicas matemáticas más adecuadas para contrastarlas.
+CE05,"Construir modelos matemáticos para la resolución analítica de problemas usando elementos del cálculo, el álgebra y la lógica. "
+CE06,"Aplicar con rigor los conceptos básicos de cálculo, álgebra y lógica para demostrar o refutar proposiciones matemáticas."
+CE07,Desarrollar nuevos procedimientos matemáticos a partir de otros más básicos para resolver problemas más complejos.
+CE08,Crear y evaluar modelos de extracción de conocimiento aplicando las técnicas de análisis de datos y aprendizaje automático más adecuadas al los datos disponibles en un dominio y los objetivos perseguidos.
+CE09,Representar gráficamente datos y modelos con las técnicas de visualización de datos más adecuadas para facilitar su comprensión.
+CE10,Interpretar los resultados de los análisis de datos para tomar decisiones.
+CE11,"Manejar software específico para el cálculo simbólico, cálculo numérico y análisis y visualización de datos para aplicar el conocimiento teórico en la resolución de problemas concretos."
+CE12,Representar la información de un dominio real de forma que pueda tratada por medios computacionales.
+CE13,Identificar los algoritmos básicos más adecuados para la resolución de problemas por medios computacionales y desarrollar nuevos algoritmos cuando los ya existentes no sean adecuados.
+CE14,Implementar algoritmos en un lenguaje de programación adecuado a las características del algoritmo y de los datos que procesa.
+CE15,Evaluar la corrección y la complejidad de algoritmos y los programas que los implementan para llegar a soluciones robustas y eficientes.
+CE16,Identificar las arquitecturas de hardware necesarias para la ejecución de programas atendiendo a sus requisitos.
+CE17,Comprender el funcionamiento de los mercados y las relaciones entre las principales variables macroeconómicas.
+CE18,Aplicar las competencias adquiridas durante el grado en el ámbito de la Ingeniería Matemática en un contexto profesional dentro de una empresa o institución.
+CE19,Realizar un trabajo original del ámbito de la Ingeniería Matemática en el que se integren las competencias adquiridas durante el grado para su presentación y defensa ante un tribunal.
+CMAC01,Analizar el estado financiero de una empresa para facilitar la toma de decisiones estratégicas.
+CMAC02,"Usar modelos econométricos y series temporales para predecir la evolución de activos financieros de renta fija, de renta variable y de derivados."
+CMAC03,Utilizar modelos estocásticos y de supervivencia para cuantificar el riesgo de una inversión o un seguro.
+CMAC04,Explotar grandes volúmenes de datos heterogéneos para extraer conocimiento del ámbito financiero.
+CMIA01,Dominar los principales paradigmas de computación para el desarrollo de sistemas inteligentes.
+CMIA02,Aplicar técnicas de percepción y robótica cognitiva para desarrollar autómatas capaces de percibir e interpretar su entorno.
+CMIA03,"Diseñar, desarrollar y administrar sistemas inteligentes capaces de aprender y desenvolverse de manera autónoma en entornos complejos. "
+CMIA04,Aplicar técnicas de procesamiento de lenguaje natural para el desarrollo de sistemas inteligentes en entornos que requieran el uso del lenguaje humano.
+CT01,Analizar los fundamentos básicos del pensamiento occidental y las realidades sociales contemporáneas en relación con el pensamiento teológico moral procedente de la concepción cristiana del hombre y la sociedad.
+CT02,"Realizar valoraciones sobre la persona, la sociedad y sus implicaciones en la práctica."
+CT03,Desarrollar una reflexión sobre el significado profundo de la existencia humana desde una pluralidad de planteamientos intelectuales. 
+CT04,"Analizar, valorar y argumentar de manera crítica y creativa las corrientes de pensamiento que conforman al hombre actual a través de sus creaciones filosóficas y literarias."
+CT05,Analizar el impacto que las realidades sociales y las corrientes de pensamiento tienen sobre los acontecimientos históricos en el ámbito del título.
+CT06,Realizar juicios de valor reflexivos sobre los procesos históricos.
+COP01,Comprender las características de los sistemas dinámicos para modelizar problemas de la Física y la Ingeniería.
+COP02,Manejar los principales conceptos y métodos del análisis complejo para la resolución de problemas de la Física y la Ingeniería.
+COP03,Aplicar los conceptos topológicos en la modelización de problemas de la Física y la Ingeniería.
+COP04,Conocer los principales conceptos y métodos del análisis de Fourier para el manejo de señales e imágenes.
+COP05,Comprender los principios de la computación cuántica para implementar algoritmos cuánticos.
+COP06,Construir redes neuronales de múltiples capas para resolver tareas de clasificación o predicción.
+COP07,Usar modelos de procesos estocásticos para formalizar fenómenos aleatorios temporales de interés económico.
+COP08,Aplicar principios criptográficos para garantizar la seguridad de los sistemas informáticos y de las transacciones mediante la tecnología blockchain.
+COP09,Aplicar metodologías de diseño de software para el desarrollo de aplicaciones.
+COP10,Conocer las implicaciones y los dilemas éticos planteados por las técnicas y avances científicos y tecnológicos. 
+COP11,Conocer y diferenciar las distintas corrientes éticas para establecer un código deontológico en el ejercicio profesional.
+COP12,Realizar valoraciones éticas acerca de los problemas planteados por las técnicas y avances científico-técnicos.
+COP13,Conocer las grandes obras escritas que han sido determinantes en la historia de la civilización occidental para desarrollar el pensamiento crítico.
+COP14,Descubrir formas de enriquecer los propios estudios mediante obras literarias apropiadas a aspectos concretos del ámbito del título. 

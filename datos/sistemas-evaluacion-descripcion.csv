@@ -1,0 +1,8 @@
+Id,Sistema de Evaluación,Descripción
+SE1 ,Examenes escritos,"Pruebas individuales de respuesta corta, tipo test, de desarrollo de temas, resolución de ejercicios, etc. que se presenten de forma escrita."
+SE2,Examenes prácticos,Pruebas individuales que permiten evaluar la aplicación de un procedimiento con la ayuda de un ordenador en la resolución de problemas prácticos.
+SE3,Trabajos individuales,"Evaluación de entregas, trabajos y proyectos individuales. "
+SE4,Trabajos grupales,"Pruebas de evaluación del desempeño del trabajo en grupo en la realización de proyectos, informes o trabajos."
+SE5,Exámenes orales,"Pruebas individuales que consisten la presentación o exposición oral de temas, estudios, casos, trabajos, etc. "
+SE6,Evaluación de las Prácticas Externas,Evaluación de las prácticas externas realizadas en las que se considerará la valoración del tutor de la empresa en su informe (75%) y la del tutor académico de la universidad más la evaluación de la memoria de prácticas realizada por el estudiante (25%).
+SE7,Evaluación del TFG,"Evaluación del documento escrito (50%), exposición y defensa oral (30%) del Trabajo Fin de Grado frente a un tribunal e informe del tutor (20%). La evaluación por el tribunal será del nivel de adquisición de los resultados de aprendizaje, mediante rúbrica."

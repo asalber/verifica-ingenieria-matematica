@@ -1,0 +1,10 @@
+name: "Verificación Grado Ingeniería Matemática"
+navbar:
+  title: "Ingeniería Matemática"
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: "Asignaturas"
+      href: asignaturas.html
+    - text: "Autor"
+      href: about.html

@@ -1,0 +1,102 @@
+---
+title: "`r asignatura$Asignatura`"
+#date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+```{r librerias}
+library(htmltools)
+library(kableExtra)
+```
+
+**Código**: `r asignatura$Código` 
+
+**Curso**: `r asignatura$Curso`
+
+**Semestre**: `r asignatura$Semestre`
+
+**Créditos**: `r asignatura$ECTS`
+
+**Materia**: `r asignatura$Materia`
+
+**Área de conocimiento**: `r asignatura[["Área de Conocimiento"]]`
+
+## Competencias
+
+```{r competencias}
+competencia <- competencias %>%
+  filter(Código == i, valor == "X") %>%
+  mutate(Competencia = paste0(Id, ": ", Descripción)) %>%
+  .$Competencia
+  
+tags$ol(purrr::map(competencia, function(.x) tags$li(.x)))
+```
+
+## Resultados de aprendizaje
+
+```{r resultados aprendizaje}
+resultado <- resultados %>% 
+  filter(Código == i) %>%
+  .$`Resultado de Aprendizaje`
+tags$ol(purrr::map(resultado, function(.x) tags$li(.x)))
+```
+
+
+## Contenidos
+
+```{r contenidos}
+contenido <- contenidos %>% 
+  filter(Código == i) %>%
+  .$Contenidos
+  
+contenido <- unlist(strsplit(contenido, ". ", fixed = T ))
+tags$ol(purrr::map(contenido, function(.x) tags$li(paste0(.x, "."))))
+```
+
+## Actividades Formativas
+
+```{r actividades}
+actividades %>%
+  filter(Código == i) %>%
+  select(Id, Actividad, Horas) %>%
+  drop_na() %>%
+  kbl()
+```
+
+### Descripción de las actividades formativas
+
+```{r actividades-descripcion}
+actividades %>%
+  filter(Código == i) %>%
+  drop_na() %>%
+  select(Id, Actividad, Descripción) %>%
+  kbl()
+```
+
+## Sistemas de Evaluación
+
+```{r evaluacion}
+sistemas.evaluacion %>%
+  filter(Código == i) %>%
+  select(Id, `Sistema de Evaluación`, Peso) %>%
+  drop_na() %>%
+  mutate(Peso = paste0(Peso, "%")) %>%
+  kbl()
+```
+
+### Descripción de las pruebas de evaluación
+
+```{r evaluacion-descripcion}
+sistemas.evaluacion %>%
+  filter(Código == i) %>%
+  drop_na() %>%
+  select(Id, `Sistema de Evaluación`, Descripción) %>%
+  kbl()
+```
+
+
+

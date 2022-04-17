@@ -1,0 +1,236 @@
+Código,Asignatura,Resultado de Aprendizaje
+19968,Fundamentos de Matemáticas,Conoce el lenguaje matemático y lo utiliza para expresar enunciados matemáticos.
+19968,Fundamentos de Matemáticas,"Distingue los principales enunciados matemáticos (axiomas, proposiciones, lemas, teoremas, corolarios, etc.). "
+19968,Fundamentos de Matemáticas,"Conoce los elementos básicos del álgebra de conjuntos, la lógica matemática y la combinatoria. "
+19968,Fundamentos de Matemáticas,"Realiza demostraciones sencillas por las técnicas de inducción, reducción al absurdo y dando contraejemplos."
+19968,Fundamentos de Matemáticas,Distingue las principales áreas de las Matemáticas y reconoce los problemas que aborda cada una de ellas.
+19967,Análisis I,Realiza análisis de sucesiones de números reales.
+19967,Análisis I,Comprende y aplica correctamente los diferentes conceptos y resultados sobre continuidad y derivabilidad de funciones de una variable.
+19967,Análisis I,Conoce y aplica la teoría de funciones de una variable para la resolución de problemas.
+19967,Análisis I,Conoce la teoría de aproximación de funciones mediante polinomios de Taylor.
+19964,Álgebra Lineal,Conoce y aplica los conceptos fundamentales del cálculo matricial.
+19964,Álgebra Lineal,"Plantea, discute y resuelve sistemas de ecuaciones lineales tanto manualmente como con la ayuda de un programa específico."
+19964,Álgebra Lineal,Conoce y aplica los conceptos básicos de espacios vectoriales y aplicaciones lineales en la resolución de problemas reales.
+19964,Álgebra Lineal,Interpreta geométricamente los conceptos del cálculo vectorial.
+19965,Matemática Discreta,Identifica la estructura discreta más adecuada para modelizar un problema real.
+19965,Matemática Discreta,"Cuenta o enumera los elementos de estructuras discretas como conjuntos, permutaciones, relaciones y grafos."
+19965,Matemática Discreta,Comprende y aplica los principios de inducción y recursión en demostraciones sencillas.
+19965,Matemática Discreta,Aplica las relaciones de recurrencia lineales en la resolución problemas combinatorios.
+19965,Matemática Discreta,Conoce y aplica la teoría básica de grafos en la resolución de problemas que lo requieran.
+19966,Programación,Identifica la secuencia procedimental para resolver un problema.
+19966,Programación,Descompone un problema complejo en subproblemas más simples.
+19966,Programación,"Comprende y aplica las principales estructuras del control del flujo de un algoritmo, tanto para tomar decisiones como para realizar iteraciones."
+19966,Programación,Agrupa el código en funciones o procedimientos parametrizados simples que puedan reutilizarse en distintos algoritmos.
+19966,Programación,Implementa un algoritmo en un lenguaje de programación de alto nivel como Python.
+19970,Análisis II,Conoce los diferentes resultados sobre el cálculo integral y los aplica a diversidad de problemas.
+19970,Análisis II,Realiza análisis de series numéricas.
+19970,Análisis II,Aplica los diferentes métodos para resolver integrales.
+19971,Probabilidad y Estadística,Calcula e interpreta los principales estadísticos descriptivos de las variables estudiadas en una muestra.
+19971,Probabilidad y Estadística,Construye modelos de regresión lineales y no lineales de dos variables y evalúa su capacidad predictiva.
+19971,Probabilidad y Estadística,Comprende los conceptos básicos del cálculo de probabilidades y los aplica en la modelización de experimentos aleatorios.
+19971,Probabilidad y Estadística,Conoce los principales modelos de probabilidad y sus aplicaciones.
+19971,Probabilidad y Estadística,Realiza análisis de datos básicos con la ayuda de algún programa como R.
+19969,Algoritmos y Estructuras de Datos,"Comprende la lógica de los tipos abstractos de datos fundamentales, identifica los más adecuados para representar la información de dominio de un problema y sabe implementarlos en Python."
+19969,Algoritmos y Estructuras de Datos,Diseña clases con los atributos y métodos adecuados para representar la información del dominio de un problema y los implementa en Python.
+19969,Algoritmos y Estructuras de Datos,"Comprende y aplicar los principios básicos de la programación orientada a objetos: abstracción, encapsulación, herencia y polimorfismo."
+19969,Algoritmos y Estructuras de Datos,Analiza la complejidad y el coste computacional de un algoritmo.
+19969,Algoritmos y Estructuras de Datos,Identifica y aplica la técnica algorítmica más apropiada para resolver un problema.
+19972,Claves de Historia Contemporánea,"Adquiere un conocimiento racional y crítico del pasado de la humanidad, con la finalidad de que el estudiante pueda comprender el presente"
+19972,Claves de Historia Contemporánea,"Adquiere un conocimiento básico de los principales acontecimientos y procesos de cambio y continuidad de la humanidad en una perspectiva diacrónica, desde el pasado hasta el mundo actual."
+19972,Claves de Historia Contemporánea,"Alcance la conciencia de que los intereses y problemas históricos son susceptibles de cambiar, conforme a los diversos contextos políticos, culturales y sociales. "
+19973,Proyecto I ,Conoce y aplica las metodologías de gestión de desarrollo de proyectos de ingeniería.
+19973,Proyecto I ,Integra conocimientos y técnicas de distintas áreas en la resolución de un problema en el ámbito de la ingeniería y las ciencias.
+19973,Proyecto I ,Evalúa y valida los resultados de un proyecto de ingeniería.
+19973,Proyecto I ,Documenta los procedimientos y los resultados de un proyecto de ingeniería.
+19973,Proyecto I ,"Comunica con ayuda de las tecnologías de la información y la comunicación los resultados de un proyecto, tanto para un público especializado como no especializado."
+19975,Análisis III,"Conoce el concepto de función de varias variables, así como la interpretación de la derivada de funciones de varias variables."
+19975,Análisis III,Aplica las técnicas para la clasificación de puntos críticos de funciones de varias variables.
+19975,Análisis III,Aplica resultados teóricos de cálculo a problemas diversos.
+19975,Análisis III,"Comprende la geometría del espacios en varias dimensiones, así como aspectos métricos y topológicos de los mismos."
+19978,Ecuaciones Diferenciales y en Diferencias,Modeliza las relaciones cuantitativas de un fenómeno físico mediante ecuaciones diferenciales. 
+19978,Ecuaciones Diferenciales y en Diferencias,"Resuelve las ecuaciones diferenciales ordinarias de primer orden clásicas de variables separables, homogéneas y lineales. "
+19978,Ecuaciones Diferenciales y en Diferencias,Resuelve sistemas de ecuaciones diferenciales lineales con coeficientes constantes y analiza la estabilidad de sus soluciones.
+19978,Ecuaciones Diferenciales y en Diferencias,Resuelve ecuaciones diferenciales de orden superior.
+19978,Ecuaciones Diferenciales y en Diferencias,Resuelve sistemas de ecuaciones diferenciales no lineales.
+19974,Bases de Datos,Conoce el papel de las bases de datos en los sistemas computacionales.
+19974,Bases de Datos,Conoce las clases de bases de datos con más impacto en la actualidad.
+19974,Bases de Datos,"Es capaz de llevar a cabo las actividades de análisis, diseño, implementación y consulta de bases de datos."
+19976,Estadística Inferencial,Estima puntualmente y mediante intervalos de confianza los principales parámetros de una variable en una población.
+19976,Estadística Inferencial,"Identifica y aplica el contraste de hipótesis, tanto paramétrico como no paramétrico, más apropiado para aceptar o rechazar hipótesis sobre algunas características poblacionales."
+19976,Estadística Inferencial,Sabe evaluar el grado de ajuste de un modelo probabilístico a la realidad experimental.
+19976,Estadística Inferencial,"Comprende las principales diferencias entre la Estadística inferencial frecuentista y Bayesiana, e identificar los contextos en los que es más apropiado utilizar una u otra."
+19976,Estadística Inferencial,Realiza análisis inferenciales básicos con la ayuda de algún programa como R.
+19977,Fundamentos Económicos,Conoce y utiliza los conceptos esenciales y los modelos habitualmente utilizados por el análisis micro y macroeconómico.
+19977,Fundamentos Económicos,"Aplica los modelos de demanda, oferta y mercados para analizar la toma de decisiones empresariales y sus desajustes."
+19977,Fundamentos Económicos,Conoce los mecanismos de determinación del equilibrio de un mercado para evaluar las principales medidas de corrección de desequilibrios.
+19977,Fundamentos Económicos,Comprende las relaciones existentes entre la economía real y la financiera y las aplica en los razonamientos.
+19977,Fundamentos Económicos,Entiende y selecciona las variables básicas del sector exterior y su influencia en la dimensión internacional de los problemas económicos analizados.
+19981,Geometría Diferencial,Entiende y maneja la geometría diferencial clásica de curvas y superficies en el espacio euclídeo.
+19981,Geometría Diferencial,Reconoce la naturaleza de los puntos de una curva en el espacio euclídeo tridimensional y calcula su curvatura y torsión.
+19981,Geometría Diferencial,Reconoce la naturaleza de los puntos de una superficie en el espacio euclídeo tridimensional y calcula su curvatura.
+19981,Geometría Diferencial,Aplica las integrales de línea y superficie para reconocer algunas propiedades globales de curvas y superficies.
+19981,Geometría Diferencial,Conoce algunas aplicaciones del cálculo vectorial y de la geometría diferencial a problemas de la Física.
+19979,Métodos Numéricos I,Comprende la diferencia entre la resolución analítica de un problema matemático y la resolución numérica aproximada y sabe en qué contextos aplicar una u otra.
+19979,Métodos Numéricos I,Formula un problema matemático en términos algorítmicos y plantea el método numérico más adecuado para su resolución.
+19979,Métodos Numéricos I,"Aplica métodos numéricos de álgebra computacional al cálculo matricial, a la resolución de sistemas y la diagonalización de matrices."
+19979,Métodos Numéricos I,"Aplica métodos númericos de cálculo al ajuste de curvas, a la interpolación y diferenciación de funciones."
+19979,Métodos Numéricos I,Tiene un manejo básico de algún programa de cálculo numérico como Octave o Sage.
+19984,Electrónica Digital y Arquitectura de Ordenadores,Conoce los principios básicos de los semiconductores.
+19984,Electrónica Digital y Arquitectura de Ordenadores,Es capaz de diseñar circuitos combinacionales y secuenciales.
+19984,Electrónica Digital y Arquitectura de Ordenadores,Es capaz de construir circuitos electrónicos sencillos.
+19984,Electrónica Digital y Arquitectura de Ordenadores,Conoce la estructura básica de un ordenador así como las nociones de código máquina y código ensamblador.
+19982,Ecuaciones en Derivadas Parciales,Conoce las principales aplicaciones de las ecuaciones en derivadas parciales en Ciencias e Ingeniería.
+19982,Ecuaciones en Derivadas Parciales,Modeliza fenómenos físicos mediante ecuaciones en derivadas parciales.
+19982,Ecuaciones en Derivadas Parciales,Resuelve mediante las técnicas apropiadas las ecuaciones en derivadas parciales que tienen solución analítica y aborda los problemas de contorno de las que no.
+19982,Ecuaciones en Derivadas Parciales,Comprende los fundamentos básicos de los procesos caóticos: ecuaciones no lineales y sensibilidad a las condiciones iniciales.
+19980,Análisis de Datos,Elige la técnica de análisis multivariante adecuada para cada diseño de investigación.
+19980,Análisis de Datos,Define categorías o conglomerados de individuos en base a las similitudes o discrepancias de sus valores en múltiples variables.
+19980,Análisis de Datos,Reduce la dimensionalidad (número de variables) de un conjunto de datos con la mínima pérdida de información. 
+19980,Análisis de Datos,Conoce y aplica las distintas técnicas para clasificar nuevos casos en las categorías de una clasificación.
+19980,Análisis de Datos,Construye modelos de regresión múltiple y evalua su capacidad predictiva.
+19980,Análisis de Datos,Realiza análisis de datos multivariantes con al ayuda de un programa como R.
+19983,Proyecto II,Conoce y aplica las metodologías de gestión de desarrollo de proyectos de ingeniería.
+19983,Proyecto II,Integra conocimientos y técnicas de distintas áreas en la resolución de un problema en el ámbito de la ingeniería y las ciencias.
+19983,Proyecto II,Evalúa y validaa los resultados de un proyecto de ingeniería.
+19983,Proyecto II,Documenta los procedimientos y los resultados de un proyecto de ingeniería.
+19983,Proyecto II,"Comunica con ayuda de las tecnologías de la información y la comunicación los resultados de un proyecto, tanto para un público especializado como no especializado."
+19988,Sistemas Operativos y Redes de Ordenadores,Conoce la estructura y las funciones de un sistema operativo.
+19988,Sistemas Operativos y Redes de Ordenadores,"Es capaz de instalar, configurar y mantener sistemas de información Unix/Linux."
+19988,Sistemas Operativos y Redes de Ordenadores,Es capaz de utilizar la terminología del modelo OSI.
+19988,Sistemas Operativos y Redes de Ordenadores,Conoce el modelo TCP/IP.
+19988,Sistemas Operativos y Redes de Ordenadores,Conoce los principios de transmisión de datos.
+19988,Sistemas Operativos y Redes de Ordenadores,Es capaz de trabajar en entornos distribuidos haciendo uso explícito de servicios TCP.
+19985,Optimización,Identifica el tipo de convexidad de una función para garantizar la existencia y unicidad de mínimos globales.
+19985,Optimización,Entiende la noción de subdiferencial y su papel en la optimización convexa.
+19985,Optimización,"Entiende, modeliza y resuelve problemas de optimización donde el conjunto de restricciones está formado por ecuaciones diferenciales. "
+19986,Métodos Numéricos II,Plantea matemáticamente problemas de ingeniería avanzados.
+19986,Métodos Numéricos II,Formula un problema matemático avanzado en términos algorítmicos y plantear el método numérico más adecuado para su resolución.
+19986,Métodos Numéricos II,"Aplica métodos de cálculo numérico a la integración, resolución de ecuaciones diferenciales, sistemas de ecuaciones diferenciales y ecuaciones en derivadas parciales que aparecen en problemas reales."
+19986,Métodos Numéricos II,Tiene un manejo avanzado de algún programa de cálculo numérico como octave o Sage.
+19987,Hombre y Mundo Moderno,Conoce las corrientes de pensamiento contemporáneo que intentan dar sentido a las realidades actuales del ser humano. 
+19987,Hombre y Mundo Moderno,Considera las problemáticas del mundo actual desde una óptica humanística. 
+19987,Hombre y Mundo Moderno,Obtiene sentido crítico y analítico para valorar las manifestaciones culturales contemporáneas. 
+19987,Hombre y Mundo Moderno,Argumenta ideas propias de forma constructiva y creativa.
+19989,Sistemas Dinámicos,Conoce la teoría lineal y resuelve sistemas diferenciales lineales con coeficientes constantes.
+19989,Sistemas Dinámicos,Comprende la importancia de las ecuaciones diferenciales y sus aplicaciones en las Ciencias y la Ingeniería.
+19989,Sistemas Dinámicos,"Relaciona los aspectos matemáticos de esta teoría con sus modelos mecánicos, físicos y biológicos."
+19989,Sistemas Dinámicos,Usa programas como Octave o Sage en la discusión de dinámicas lineales y no lineales.
+19990,Variable Compleja y Análisis de Fourier,Comprende la diferencia entre el cuerpo de los números reales y el de los complejos.
+19990,Variable Compleja y Análisis de Fourier,Analiza funciones analíticas.
+19990,Variable Compleja y Análisis de Fourier,Comprende y aplica funciones armónicas en problemas.
+19990,Variable Compleja y Análisis de Fourier,Clasifica las singularidades de funciones analíticas.
+19990,Variable Compleja y Análisis de Fourier,Analiza el concepto de residuos y aplicar el Teorema de los residuos al cálculo integral de funciones complejas.
+19990,Variable Compleja y Análisis de Fourier,"Calcula la serie de Fourier de una función periódica, así como el uso de sus propiedades."
+19990,Variable Compleja y Análisis de Fourier,Calcula la transformada de Fourier continua de una función y usa sus propiedades.
+19990,Variable Compleja y Análisis de Fourier,"Calcula la transformada de Fourier discreta de una función, usa sus propiedades y aplica la transformada rápida de Fourier como método de cálculo de esta."
+19991,Análisis Funcional,Comprende los resultados básicos de espacios normados y espacios de Hilbert.
+19991,Análisis Funcional,Comprende del Teorema de Hahn-Banach y los resultados derivados de este.
+19991,Análisis Funcional,Comprende los espacios de funciones medibles.
+19992,Topología,Maneja con soltura los conceptos de compacidad y conexión.
+19992,Topología,Comprende y analiza el concepto de topología a través de los abiertos y entornos.
+19992,Topología,Analiza funciones continuas en espacios topológicos.
+19993,Aprendizaje Automático,Conoce e identifica la técnica de aprendizaje automático más apropiada para un problema real.
+19993,Aprendizaje Automático,Identifica patrones y regularidades en los datos mediante técnicas de aprendizaje automático no supervisado.
+19993,Aprendizaje Automático,Construye modelos de clasificación mediante técnicas de aprendizaje automático supervisado.
+19993,Aprendizaje Automático,Evalua y compara el rendimiento de distintos modelos de aprendizaje sobre un mismo problema.
+19993,Aprendizaje Automático,Aplica técnicas de aprendizaje automático con la ayuda de algún programa como R o Python.
+19994,Computación en paralelo,Identifica problemas susceptibles de resolverse mediante procesos concurrentes y diseña algoritmos paralelos para su resolución.
+19994,Computación en paralelo,Conoce los distintos paradigmas de la computación en paralelo e identifica el más adecuado en función del tipo de problema y los recursos disponibles.
+19994,Computación en paralelo,Implementa la comunicación entre procesos paralelos.
+19994,Computación en paralelo,"Conoce las distintas arquitecturas de computadores, tanto paralelas como distribuidas, y desarrolla y optimiza programas para las mismas."
+19994,Computación en paralelo,Conoce y utiliza las técnicas fundamentales de computación de altas prestaciones.
+19994,Computación en paralelo,Implementa algoritmos paralelos mediante un lenguaje que admita programación paralela como Python.
+19995,Cálculo Estocástico,Identifica un movimiento browniano en ejemplos específicos de finanzas.
+19995,Cálculo Estocástico,Aplica del Lema de Îto e integrales estocásticas a problemas concretos en finanzas.
+19997,Matemática Financiera I,Modeliza los retornos esperados mediante funciones lineales usando diferentes factores macroeconómicos.
+19997,Matemática Financiera I,Clasifica diferentes derivados y analiza la correcta aplicación de cada uno de ellos.
+19996,Matemáticas Actuariales,Modeliza y calcula componentes de seguros.
+19996,Matemáticas Actuariales,Analiza y valora distintos tipos de canalización del ahorro vinculados a la supervivencia.
+19996,Matemáticas Actuariales,Maneja el lenguaje y comprende los elementos clave en la valoración de seguros.
+19998,Lógica Formal,Conoce la lógica proposicional y la lógica de predicados de primer orden desde el punto de vista tanto sintáctico como semántico.
+19998,Lógica Formal,Conoce los teoremas fundamentales de lógica matemática y de meta-lógica.
+19998,Lógica Formal,Conoce las nociones básicas de lógica modal.
+19998,Lógica Formal,Es capaz de analizar y demostrar teoremas de lógica matemática y de meta-lógica.
+19999,Teoría de la Computación,Conoce la teoría de autómatas y lenguajes formales.
+19999,Teoría de la Computación,Es capaz de representar mediante expresiones regulares y gramáticas.
+19999,Teoría de la Computación,Diseña modelos de computación.
+20000,Fundamentos de la Inteligencia Artificial,Identifica áreas de aplicación en las que se pueda utilizar las técnicas y métodos de la Inteligencia Artificial.
+20000,Fundamentos de la Inteligencia Artificial,"Conoce los diferentes formalismos de representación, tanto aquéllos que están basados en lógica clásica, como los orientados a la representación de la imprecisión y los orientados a la representación de la incertidumbre."
+20000,Fundamentos de la Inteligencia Artificial,Identifica el formalismo de representación más adecuado según el problema.
+20000,Fundamentos de la Inteligencia Artificial,"Aplica las principales técnicas de computación natural, tanto a nivel simbólico como físico, e identifica su idoneidad para distintos tipos de problemas."
+20000,Fundamentos de la Inteligencia Artificial,Integra tecnologías y sistemas propios de la Inteligencia Artificial en el diseño de sistemas inteligentes.
+20002,Matemática Financiera II,Calcula y valorar la rentabilidad de una inversión empresarial con y sin riesgo.
+20002,Matemática Financiera II,Calcula y decide sobre el coste de las financiación de las empresas mediante recursos propios.
+20002,Matemática Financiera II,Calcula y decide sobre el coste de las financiación de las empresas mediante recurso ajenos.
+20002,Matemática Financiera II,Valora los activos financieros de renta fija y variable con el fin de compararlos con su cotización en los mercados financieros.
+20002,Matemática Financiera II,"Valora derivados de tipos de interés, de renta fija y de equity."
+20005,Minería de Datos y Big Data,Conoce las distintas etapas de un proceso de minería de datos.
+20005,Minería de Datos y Big Data,Conoce las distintas técnicas de minería de datos y sabe aplicar las más adecuadas al contexto de un problema del ámbito de las finanzas.
+20005,Minería de Datos y Big Data,Valida los distintos modelos de extracción de conocimiento que se usan en minería de datos.
+20005,Minería de Datos y Big Data,Gestiona volúmenes masivos de datos.
+20005,Minería de Datos y Big Data,Aplica técnicas de minería de datos con programas especializados.
+20003,Modelos de Riesgo Cuantitativo,Analiza como las empresas han de cubrir los riesgos financieros.
+20003,Modelos de Riesgo Cuantitativo,Calcula el VaR y otras medidas similares.
+20003,Modelos de Riesgo Cuantitativo,Usa diferentes técnicas para valorar el riesgo usando modelos de cópula.
+20004,Teoría y optimización de carteras,Sabe qué es una cartera eficiente y la frontera eficiente.
+20004,Teoría y optimización de carteras,Realiza un análisis correcto del modelo media-varianza que constituye un modelo de gestión de activos.
+20004,Teoría y optimización de carteras,Obtiene y analiza conclusiones cuando los intereses libres de riesgo cambian.
+20001,Series Temporales,"Elabora, estima y valida modelos de series temporales con ayuda de software."
+20001,Series Temporales,"Analiza modelos para describir el conjunto de datos de interés, formalizar hipótesis, realizar predicciones y simular el funcionamiento de sistemas dinámicos."
+20001,Series Temporales,Modeliza un fenómeno económico a través del uso de Cadenas de Markov.
+20006,Programación Lógica,Conoce las bases teóricas de la lógica computacional.
+20006,Programación Lógica,Identifica problemas en los que es adecuado utilizar el paradigma lógico.
+20006,Programación Lógica,Programa en un lenguaje del paradigma lógico.
+20007,Programación Funcional,Conoce las bases teóricas de la programación funcional.
+20007,Programación Funcional,Identifica problemas en los que es adecuado utilizar programación funcional.
+20007,Programación Funcional,Programa en un lenguaje del paradigma funcional.
+20008,Percepción Computacional,Conoce las bases teóricas de la percepción computacional.
+20008,Percepción Computacional,Conoce los distintos tipos de sensores.
+20008,Percepción Computacional,"Resuelve problemas prácticos, mediante el software adecuado, y de acuerdo con las bases teóricas, de problemas de percepción computacional."
+20009,Procesamiento de Lenguaje Natural,Conoce las diferentes estrategias aplicadas en los diferentes ámbitos en Procesamiento de Lenguaje Natural.
+20009,Procesamiento de Lenguaje Natural,Selecciona el enfoque más adecuado para solucionar casos de negocio reales.
+20009,Procesamiento de Lenguaje Natural,Aplica técnicas de Procesamiento de Lenguaje Natural en problemas que lo requieren.
+20010,Administración de sistemas,"Instala, configura y mantiene sistemas de información Unix/Linux."
+20010,Administración de sistemas,Automatiza vía software el aprovisionamiento y la gestión de configuración de sistemas. 
+20010,Administración de sistemas,"Conoce los mecanismos que garantizan alta disponibilidad, escalabilidad y aprovisionamiento bajo demanda."
+20010,Administración de sistemas,"Instala, configura y explota sistemas de clustering y contenedores."
+20010,Administración de sistemas,"Instala, configura y programa herramientas de Big Data."
+20010,Administración de sistemas,Administra recursos en la nube.
+20011,Doctrina Social de la Iglesia,Ahonda en el conocimiento del pensamiento católico aplicado a los aspectos y fenómenos sociales
+20011,Doctrina Social de la Iglesia,Reflexiona sobre las cuestiones sociales de nuestro tiempo a la luz de las palabras del Evangelio
+20011,Doctrina Social de la Iglesia,"Analiza el complejo mundo de las relaciones sociales que condicionan el destino del hombre, tratando de dar un sentido a la existencia y al misterio que envuelve a la Humanidad."
+20012,Prácticas externas,Se desempeña adecuadamente en un entorno laboral del ámbito de la ingeniería matemática
+20013,Trabajo Fin de Grado,"Elabora, presenta y defiende un proyecto de ingeniería matemática frente a un tribunal según unos estándares académico-técnicos"
+20016,Computación Cuántica,Conoce los fundamentos de mecánica cuántica.
+20016,Computación Cuántica,Conoce los fundamentos de la computación cuántica.
+20016,Computación Cuántica,Identifica los problemas adecuados para ser resueltos mediante computación cuántica.
+20016,Computación Cuántica,Pograma mediante bibliotecas de computación cuántica.
+20017,Aprendizaje profundo,Identifica problemas de las Ciencias y la Ingeniería susceptibles de resolverse con redes neuronales profundas.
+20017,Aprendizaje profundo,Comprende el funcionamiento de las redes neuronales prealimentadas y en particular de las redes convolucionales.
+20017,Aprendizaje profundo,Aplicar la estructura de red neuronal más apropiada a un problema concreto. 
+20017,Aprendizaje profundo,Evalua el rendimiento de una red neuronal profunda.
+20017,Aprendizaje profundo,Implementa redes neuronales profundas en algún lenguaje de programación como Python. 
+20018,Procesos Estocásticos,Es capaz de formalizar un fenómeno aleatorio con cierto interés económico en términos de un proceso estocástico.
+20018,Procesos Estocásticos,Aplica cadenas de Markov en la modelización de procesos estocásticos.
+20018,Procesos Estocásticos,Modeliza problemas a través del uso del proceso estocástico de Poisson.
+20014,Criptografía y Blockchain,Identifica los principales elementos de seguridad de un sistema de información y evalúa su fortalezas y debilidades.
+20014,Criptografía y Blockchain,Conoce y aplica los principales sistemas de protección de la información basados en la aplicación de técnicas criptográficas.
+20014,Criptografía y Blockchain,Diferencia entre cifrado simétrico y asimétrico y aplica el más apropiado en cada contexto.
+20014,Criptografía y Blockchain,"Conoce y saber implementar los principales algoritmos de cifrado modernos (A5, RC4, AES, RSA, etc.)"
+20014,Criptografía y Blockchain,Comprende el funcionamiento de la tecnología de cadenas de bloques cifrados (blockchain) y conoce sus principales aplicaciones en el área de las finanzas.
+20019,Teoría de la señal,Distingue los procesos que generan señales en tiempo continuo y discreto.
+20019,Teoría de la señal,Aplica la transformada de Fourier de tiempo continuo.
+20019,Teoría de la señal,Aplica la transformada de Fourier de tiempo discreto.
+20015,Ingeniería del Software,Planifica el desarrollo de proyectos software.
+20015,Ingeniería del Software,Conoce las metodologías modernas de desarrollo de software.
+20015,Ingeniería del Software,Aplica las principales metodologías modernas de desarrollo de software.
+20015,Ingeniería del Software,Realiza la automatización de pruebas.
+20015,Ingeniería del Software,Aplica patrones de diseño.
+20020,Grandes libros,"Mejora la capacidad de pensar de forma analítica, crítica y creativa gracias a la lectura de grandes obras literarias. "
+20020,Grandes libros,"Adquiere el conocimiento de los autores, del contexto socio-cultural en que viven y de las obras estudiadas. "
+20020,Grandes libros,Fomenta la capacidad de redacción escrita y expresión oral para argumentar y defender una postura crítica sobre la obra estudiada.  
+20021,Ética y Deontología,"Reflexiona acerca de la propia felicidad, autorrealización y el sentido de la vida a partir de argumentos ético-filosóficos y de su experiencia vital."
+20021,Ética y Deontología,"Distingue los principales elementos constitutivos de la acción humana: dignidad ontológica y moral, razón práctica natural (sindéresis), ley natural y leyes positivas, conciencia moral y responsabilidad, entre otras."
+20021,Ética y Deontología,"Analiza  críticamente  las  características  de  las  principales  corrientes  éticas:  hedonismo, eudemonismo, deontologismo, utilitarismo, pragmatismo, emotivismo y consecuencialismo."
+20021,Ética y Deontología,"Identifica  y  sabe  aplicar los  principios  de  responsabilidad  y  solidaridad,  así  como  los tecnológicos y medioambientales en el ejercicio de la profesión."
+20021,Ética y Deontología,"Dstingue  lo  que  es  lícito  y  lo  que  no  lo  es  en  la  actividad  profesional  del Ingeniero,  atendiendo  a  los  distintos  ámbitos  en  los  que  cabe  actualmente  inscribir  dicha actividad en el mundo empresarial."
