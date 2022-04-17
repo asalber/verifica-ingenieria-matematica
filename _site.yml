@@ -1,4 +1,5 @@
 name: "Verificación Grado Ingeniería Matemática"
+output_dir: docs
 navbar:
   title: "Ingeniería Matemática"
   left:
