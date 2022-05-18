@@ -144,6 +144,7 @@ urls <- asignaturas %>% filter(Curso == 4, Semestre == 8, Mención != "Inteligen
 asignaturas %>% 
   filter(Curso == 4, Semestre == 8, Mención != "Inteligencia Artificial", Carácter != "Optativa de Mención") %>%
   select(Asignatura, ECTS) %>%
+  mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
   kbl(booktabs = T, escape = F) %>%
   kable_styling("striped", full_width = F)
 ```
