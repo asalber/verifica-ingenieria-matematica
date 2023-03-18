@@ -71,21 +71,47 @@ asignaturas %>%
   kable_styling("striped", full_width = F)
 ```
 
-# Tercer curso (Mención en Análisis Cuantitativo y Finanzas)
+# Tercer curso
 
 ## Primer semestre
 
-```{r tercero-1s-economia}
-urls <- asignaturas %>% filter(Curso == 3, Semestre == 5, Mención != "Inteligencia Artificial", Carácter != "Optativa") %>% .$Url
+```{r tercero-1s}
+urls <- asignaturas %>% filter(Curso == 3, Semestre == 5, Mención != "Economía", Carácter != "Optativa") %>% .$Url
 asignaturas %>% 
-  filter(Curso == 3, Semestre == 5, Mención != "Inteligencia Artificial", Carácter != "Optativa") %>%
+  filter(Curso == 3, Semestre == 5, Mención != "Economía", Carácter != "Optativa") %>%
   select(Asignatura, ECTS) %>%
   mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
   kbl(booktabs = T, escape = F) %>%
   kable_styling("striped", full_width = F)
 ```
 
-## Segundo semestre
+### Optativas
+
+Elegir 6 ECTS
+
+```{r tercero-1s-optativas}
+urls <- asignaturas %>% filter(Curso == 3, Semestre == 5, Carácter == "Optativa") %>% .$Url
+asignaturas %>% 
+  filter(Curso == 3, Semestre == 5, Carácter == "Optativa") %>%
+  select(Asignatura, ECTS) %>%
+  mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
+  kbl(booktabs = T, escape = F) %>%
+  kable_styling("striped", full_width = F)
+```
+
+## Segundo semestre (Mención en Inteligencia Artificial)
+
+```{r tercero-2s-ia}
+urls <- asignaturas %>% filter(Curso == 3, Semestre == 6, Mención != "Economía") %>% .$Url
+asignaturas %>% 
+  filter(Curso == 3, Semestre == 6, Mención != "Economía") %>%
+  select(Asignatura, ECTS) %>%
+  mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
+  kbl(booktabs = T, escape = F) %>%
+  kable_styling("striped", full_width = F)
+```
+
+## Segundo semestre (Mención en Análisis Cuantitativo y Finanzas)
 
 ```{r tercero-2s-economia}
 urls <- asignaturas %>% filter(Curso == 3, Semestre == 6, Mención != "Inteligencia Artificial") %>% .$Url
@@ -97,14 +123,14 @@ asignaturas %>%
   kable_styling("striped", full_width = F)
 ```
 
-# Tercer curso (Mención en Inteligencia Artificial)
+# Cuarto curso (Mención en Inteligencia Artificial)
 
 ## Primer semestre
 
-```{r tercero-1s-ia}
-urls <- asignaturas %>% filter(Curso == 3, Semestre == 5, Mención != "Economía", Carácter != "Optativa") %>% .$Url
+```{r cuarto-1s-ia}
+urls <- asignaturas %>% filter(Curso == 4, Semestre == 7, Mención != "Economía") %>% .$Url
 asignaturas %>% 
-  filter(Curso == 3, Semestre == 5, Mención != "Economía", Carácter != "Optativa") %>%
+  filter(Curso == 4, Semestre == 7, Mención != "Economía") %>%
   select(Asignatura, ECTS) %>%
   mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
   kbl(booktabs = T, escape = F) %>%
@@ -113,10 +139,24 @@ asignaturas %>%
 
 ## Segundo semestre
 
-```{r tercero-2s-ia}
-urls <- asignaturas %>% filter(Curso == 3, Semestre == 6, Mención != "Economía") %>% .$Url
+```{r cuarto-2s-ia}
+urls <- asignaturas %>% filter(Curso == 4, Semestre == 8, Mención != "Economía", Carácter != "Optativa de Mención") %>% .$Url
 asignaturas %>% 
-  filter(Curso == 3, Semestre == 6, Mención != "Economía") %>%
+  filter(Curso == 4, Semestre == 8, Mención != "Economía", Carácter != "Optativa de Mención") %>%
+  select(Asignatura, ECTS) %>%
+  mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
+  kbl(booktabs = T, escape = F) %>%
+  kable_styling("striped", full_width = F)
+```
+
+### Optativas
+
+Elegir 3 ECTS
+
+```{r cuarto-2s-ia-optativas}
+urls <- asignaturas %>% filter(Curso == 4, Semestre == 8, Mención != "Economía", Carácter == "Optativa de Mención") %>% .$Url
+asignaturas %>% 
+  filter(Curso == 4, Semestre == 8, Mención != "Economía", Carácter == "Optativa de Mención") %>%
   select(Asignatura, ECTS) %>%
   mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
   kbl(booktabs = T, escape = F) %>%
@@ -149,26 +189,14 @@ asignaturas %>%
   kable_styling("striped", full_width = F)
 ```
 
-# Cuarto curso (Mención en Inteligencia Artificial)
+### Optativas
 
-## Primer semestre
+Elegir 3 ECTS
 
-```{r cuarto-1s-ia}
-urls <- asignaturas %>% filter(Curso == 4, Semestre == 7, Mención != "Economía") %>% .$Url
+```{r cuarto-2s-economia-optativas}
+urls <- asignaturas %>% filter(Curso == 4, Semestre == 8, Mención != "Inteligencia Artificial", Carácter == "Optativa de Mención") %>% .$Url
 asignaturas %>% 
-  filter(Curso == 4, Semestre == 7, Mención != "Economía") %>%
-  select(Asignatura, ECTS) %>%
-  mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
-  kbl(booktabs = T, escape = F) %>%
-  kable_styling("striped", full_width = F)
-```
-
-## Segundo semestre
-
-```{r cuarto-2s-ia}
-urls <- asignaturas %>% filter(Curso == 4, Semestre == 8, Mención != "Economía", Carácter != "Optativa de Mención") %>% .$Url
-asignaturas %>% 
-  filter(Curso == 4, Semestre == 8, Mención != "Economía", Carácter != "Optativa de Mención") %>%
+  filter(Curso == 4, Semestre == 8, Mención != "Inteligencia Artificial", Carácter == "Optativa de Mención") %>%
   select(Asignatura, ECTS) %>%
   mutate(Asignatura = cell_spec(Asignatura, "html", link = urls)) %>%
   kbl(booktabs = T, escape = F) %>%

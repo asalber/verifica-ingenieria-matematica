@@ -13,7 +13,7 @@ Código,Asignatura,ECTS,Rama,Módulo,Materia,Área de Conocimiento,Curso,Semestr
 19978,Ecuaciones Diferenciales y en Diferencias,6,Ciencias,Matemáticas,Matemática Avanzada,Matemática Aplicada,2,3,Obligatoria,Común,Análisis I
 19974,Bases de Datos,6,Ingeniería y Arquitectura,Computación,Algoritmos y Datos,Lenguajes y Sistemas Informáticos,2,3,Básica,Común,
 19976,Estadística Inferencial,6,Ciencias Sociales y Jurídicas,Estadística,Estadística,Estadística e Investigación Operativa,2,3,Obligatoria,Común,Probabilidad y Estadística
-19977,Fundamentos Económicos,6,Ciencias Sociales y Jurídicas,Economía,Economía,Economía,2,5,Obligatoria,Común,
+19977,Fundamentos Económicos,6,Ciencias Sociales y Jurídicas,Economía,Economía,Economía,2,3,Obligatoria,Común,
 19981,Geometría Diferencial,3,Ciencias,Matemáticas,Matemática Avanzada,Matemática Aplicada,2,4,Obligatoria,Común,Análisis I
 19979,Métodos Numéricos I,6,Ingeniería y Arquitectura,Cálculo Numérico,Cálculo Numérico,Matemática Aplicada,2,4,Básica,Común,
 19984,Electrónica Digital y Arquitectura de Ordenadores,6,Ingeniería y Arquitectura,Computación,Tecnología Digital,Tecnología Electrónica,2,4,Obligatoria,Común,
@@ -23,7 +23,7 @@ Código,Asignatura,ECTS,Rama,Módulo,Materia,Área de Conocimiento,Curso,Semestr
 19988,Sistemas Operativos y Redes de Ordenadores,6,Ingeniería y Arquitectura,Computación,Sistemas Operativos y Redes,Lenguajes y Sistemas Informáticos,3,5,Obligatoria,Común,
 19985,Optimización,6,Ingeniería y Arquitectura,Cálculo Numérico,Cálculo Numérico,Matemática Aplicada,3,5,Obligatoria,Común,
 19986,Métodos Numéricos II,6,Ingeniería y Arquitectura,Cálculo Numérico,Cálculo Numérico,Matemática Aplicada,3,5,Obligatoria,Común,
-19987,Hombre y Mundo Moderno,6,Arte y Humanidades,Humanidades,Humanidades,Humanidades,3,3,Obligatoria,Común,
+19987,Hombre y Mundo Moderno,6,Arte y Humanidades,Humanidades,Humanidades,Humanidades,3,5,Obligatoria,Común,
 19989,Sistemas Dinámicos,3,Ciencias,Matemáticas,Matemática Avanzada,Matemática Aplicada,3,5,Optativa,Común,
 19991,Análisis Funcional,3,Ciencias,Matemáticas,Análisis Matemático,Matemática Aplicada,3,5,Optativa,Común,
 19992,Topología,3,Ciencias,Matemáticas,Matemática Avanzada,Matemática Aplicada,3,5,Optativa,Común,

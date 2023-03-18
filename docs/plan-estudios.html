@@ -13,7 +13,7 @@
 
 <title>Plan de estudios</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -176,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -446,6 +443,15 @@ Inferencial</a>
 6
 </td>
 </tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/fundamentos-econ%C3%B3micos.html" style="     ">Fundamentos
+Económicos</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -520,9 +526,8 @@ de Datos</a>
 </table>
 </div>
 </div>
-<div id="tercer-curso-mención-en-análisis-cuantitativo-y-finanzas"
-class="section level1">
-<h1>Tercer curso (Mención en Análisis Cuantitativo y Finanzas)</h1>
+<div id="tercer-curso" class="section level1">
+<h1>Tercer curso</h1>
 <div id="primer-semestre-2" class="section level2">
 <h2>Primer semestre</h2>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
@@ -563,11 +568,137 @@ Numéricos II</a>
 6
 </td>
 </tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/hombre-y-mundo-moderno.html" style="     ">Hombre y
+Mundo Moderno</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+<div id="optativas" class="section level3">
+<h3>Optativas</h3>
+<p>Elegir 6 ECTS</p>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/sistemas-din%C3%A1micos.html" style="     ">Sistemas
+Dinámicos</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/an%C3%A1lisis-funcional.html" style="     ">Análisis
+Funcional</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/topolog%C3%ADa.html" style="     ">Topología</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/variable-compleja-y-an%C3%A1lisis-de-fourier.html" style="     ">Variable
+Compleja y Análisis de Fourier</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
 </tbody>
 </table>
 </div>
-<div id="segundo-semestre-2" class="section level2">
-<h2>Segundo semestre</h2>
+</div>
+<div id="segundo-semestre-mención-en-inteligencia-artificial"
+class="section level2">
+<h2>Segundo semestre (Mención en Inteligencia Artificial)</h2>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/aprendizaje-autom%C3%A1tico.html" style="     ">Aprendizaje
+Automático</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/computaci%C3%B3n-en-paralelo.html" style="     ">Computación
+en paralelo</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/l%C3%B3gica-formal.html" style="     ">Lógica
+Formal</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/teor%C3%ADa-de-la-computaci%C3%B3n.html" style="     ">Teoría
+de la Computación</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/fundamentos-de-la-inteligencia-artificial.html" style="     ">Fundamentos
+de la Inteligencia Artificial</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="segundo-semestre-mención-en-análisis-cuantitativo-y-finanzas"
+class="section level2">
+<h2>Segundo semestre (Mención en Análisis Cuantitativo y Finanzas)</h2>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -629,9 +760,9 @@ Actuariales</a>
 </table>
 </div>
 </div>
-<div id="tercer-curso-mención-en-inteligencia-artificial"
+<div id="cuarto-curso-mención-en-inteligencia-artificial"
 class="section level1">
-<h1>Tercer curso (Mención en Inteligencia Artificial)</h1>
+<h1>Cuarto curso (Mención en Inteligencia Artificial)</h1>
 <div id="primer-semestre-3" class="section level2">
 <h2>Primer semestre</h2>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
@@ -648,8 +779,8 @@ ECTS
 <tbody>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/sistemas-operativos-y-redes-de-ordenadores.html" style="     ">Sistemas
-Operativos y Redes de Ordenadores</a>
+<a href="asignaturas/programaci%C3%B3n-l%C3%B3gica.html" style="     ">Programación
+Lógica</a>
 </td>
 <td style="text-align:right;">
 6
@@ -657,7 +788,8 @@ Operativos y Redes de Ordenadores</a>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/optimizaci%C3%B3n.html" style="     ">Optimización</a>
+<a href="asignaturas/programaci%C3%B3n-funcional.html" style="     ">Programación
+Funcional</a>
 </td>
 <td style="text-align:right;">
 6
@@ -665,8 +797,26 @@ Operativos y Redes de Ordenadores</a>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/m%C3%A9todos-num%C3%A9ricos-ii.html" style="     ">Métodos
-Numéricos II</a>
+<a href="asignaturas/percepci%C3%B3n-computacional.html" style="     ">Percepción
+Computacional</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/procesamiento-de-lenguaje-natural.html" style="     ">Procesamiento
+de Lenguaje Natural</a>
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/administraci%C3%B3n-de-sistemas.html" style="     ">Administración
+de sistemas</a>
 </td>
 <td style="text-align:right;">
 6
@@ -675,7 +825,7 @@ Numéricos II</a>
 </tbody>
 </table>
 </div>
-<div id="segundo-semestre-3" class="section level2">
+<div id="segundo-semestre-2" class="section level2">
 <h2>Segundo semestre</h2>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
@@ -691,8 +841,8 @@ ECTS
 <tbody>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/aprendizaje-autom%C3%A1tico.html" style="     ">Aprendizaje
-Automático</a>
+<a href="asignaturas/doctrina-social-de-la-iglesia.html" style="     ">Doctrina
+Social de la Iglesia</a>
 </td>
 <td style="text-align:right;">
 6
@@ -700,42 +850,96 @@ Automático</a>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/computaci%C3%B3n-en-paralelo.html" style="     ">Computación
-en paralelo</a>
+<a href="asignaturas/pr%C3%A1cticas-externas.html" style="     ">Prácticas
+externas</a>
 </td>
 <td style="text-align:right;">
-6
+12
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/l%C3%B3gica-formal.html" style="     ">Lógica
-Formal</a>
+<a href="asignaturas/trabajo-fin-de-grado.html" style="     ">Trabajo
+Fin de Grado</a>
 </td>
 <td style="text-align:right;">
-6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="asignaturas/teor%C3%ADa-de-la-computaci%C3%B3n.html" style="     ">Teoría
-de la Computación</a>
-</td>
-<td style="text-align:right;">
-6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="asignaturas/fundamentos-de-la-inteligencia-artificial.html" style="     ">Fundamentos
-de la Inteligencia Artificial</a>
-</td>
-<td style="text-align:right;">
-6
+9
 </td>
 </tr>
 </tbody>
 </table>
+<div id="optativas-1" class="section level3">
+<h3>Optativas</h3>
+<p>Elegir 3 ECTS</p>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Asignatura
+</th>
+<th style="text-align:right;">
+ECTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/computaci%C3%B3n-cu%C3%A1ntica.html" style="     ">Computación
+Cuántica</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/aprendizaje-profundo.html" style="     ">Aprendizaje
+profundo</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/teor%C3%ADa-de-la-se%C3%B1al.html" style="     ">Teoría
+de la señal</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/ingenier%C3%ADa-del-software.html" style="     ">Ingeniería
+del Software</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/grandes-libros.html" style="     ">Grandes
+libros</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/%C3%A9tica-y-deontolog%C3%ADa.html" style="     ">Ética
+y Deontología</a>
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 <div id="cuarto-curso-mención-en-análisis-cuantitativo-y-finanzas"
@@ -803,7 +1007,7 @@ Temporales</a>
 </tbody>
 </table>
 </div>
-<div id="segundo-semestre-4" class="section level2">
+<div id="segundo-semestre-3" class="section level2">
 <h2>Segundo semestre</h2>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
@@ -846,13 +1050,9 @@ Fin de Grado</a>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-<div id="cuarto-curso-mención-en-inteligencia-artificial"
-class="section level1">
-<h1>Cuarto curso (Mención en Inteligencia Artificial)</h1>
-<div id="primer-semestre-5" class="section level2">
-<h2>Primer semestre</h2>
+<div id="optativas-2" class="section level3">
+<h3>Optativas</h3>
+<p>Elegir 3 ECTS</p>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -867,95 +1067,61 @@ ECTS
 <tbody>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/programaci%C3%B3n-l%C3%B3gica.html" style="     ">Programación
-Lógica</a>
+<a href="asignaturas/computaci%C3%B3n-cu%C3%A1ntica.html" style="     ">Computación
+Cuántica</a>
 </td>
 <td style="text-align:right;">
-6
+3
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/programaci%C3%B3n-funcional.html" style="     ">Programación
-Funcional</a>
+<a href="asignaturas/aprendizaje-profundo.html" style="     ">Aprendizaje
+profundo</a>
 </td>
 <td style="text-align:right;">
-6
+3
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/percepci%C3%B3n-computacional.html" style="     ">Percepción
-Computacional</a>
+<a href="asignaturas/procesos-estoc%C3%A1sticos.html" style="     ">Procesos
+Estocásticos</a>
 </td>
 <td style="text-align:right;">
-6
+3
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/procesamiento-de-lenguaje-natural.html" style="     ">Procesamiento
-de Lenguaje Natural</a>
+<a href="asignaturas/criptograf%C3%ADa-y-blockchain.html" style="     ">Criptografía
+y Blockchain</a>
 </td>
 <td style="text-align:right;">
-6
+3
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="asignaturas/administraci%C3%B3n-de-sistemas.html" style="     ">Administración
-de sistemas</a>
+<a href="asignaturas/grandes-libros.html" style="     ">Grandes
+libros</a>
 </td>
 <td style="text-align:right;">
-6
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="asignaturas/%C3%A9tica-y-deontolog%C3%ADa.html" style="     ">Ética
+y Deontología</a>
+</td>
+<td style="text-align:right;">
+3
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="segundo-semestre-5" class="section level2">
-<h2>Segundo semestre</h2>
-<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-Asignatura
-</th>
-<th style="text-align:right;">
-ECTS
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-<a href="asignaturas/doctrina-social-de-la-iglesia.html" style="     ">Doctrina
-Social de la Iglesia</a>
-</td>
-<td style="text-align:right;">
-6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="asignaturas/pr%C3%A1cticas-externas.html" style="     ">Prácticas
-externas</a>
-</td>
-<td style="text-align:right;">
-12
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="asignaturas/trabajo-fin-de-grado.html" style="     ">Trabajo
-Fin de Grado</a>
-</td>
-<td style="text-align:right;">
-9
-</td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
 
