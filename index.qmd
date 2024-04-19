@@ -1,0 +1,61 @@
+---
+title: "Memoria de Verificación del Grado en Ingeniería Matemática"
+#date: "`r Sys.Date()`"
+format: html
+theme:
+  light: flatly
+  dark: darkly
+execute: 
+  echo: false
+  warning: false
+---
+
+**Denominación**: Gado en Ingeniería Matemática 
+
+**Menciones**: 
+
+- Mención en Análisis cuantitativo y Finanzas
+- Mención en Inteligencia Artificial 
+
+**Centros donde se imparte**: Escuela Politécnica Superior
+
+**Tipo de enseñanza**: Presencial 
+
+**Rama de conocimiento**: Ingeniería y Arquitectura 
+
+**Orientación**: Profesional 
+
+**Tipo de titulación**: Oficial
+
+**Número de ECTs del título**: 240
+
+- **Créditos de formación básica**: 90
+- **Créditos obligatorios**: 102
+- **Créditos optativos**: 57
+- **Créditos de prácticas externas**: 12
+- **Créditos de trabajo fin de grado**: 9
+
+**Número de horas presenciales**: 10 horas por ECTS 
+
+**Idioma**: Castellano
+
+**Director**: Alfredo Sánchez Alberca (asalber@ceu.es) 
+
+## Documentos de la memoria de verificación
+
+- [Propuesta de memoria de verifiación aprobada](./docs/propuesta memoria verificacion aprobada.pdf)
+- [Criterio 2. Justifiación del título](./docs/Criterio 2 Justificación del título.pdf)
+- [Criterio 4.1. Sistemas de información previos](./docs/Criterio 4.1 Sistemas de Información Previo.pdf)
+- [Criterio 4.2. Acceso y admisión](./docs/Criterio 4.2 Acceso y Admisión.pdf)
+- [Criterio 4.3. Apoyo y orientación a estudiantes matriculados](./docs/Criterio 4.3 Apoyo Orientacion Estudiantes Matriculados.pdf)
+- [Criterio 4.4. Reconocimiento y transferencia de créditos](./docs/Criterio 4.4 Reconocimiento y Transferencia Créditos.pdf)
+- [Criterio 5. Plan de estudios](./docs/Criterio 5 Plan de estudios.pdf)
+- [Criterio 6.1. Personal académico](./docs/Criterio 6.1 Personal academico.pdf)
+- [Criterio 6.2. Otro personal académico](./docs/Criterio 6.2 Otro personal académico.pdf)
+- [Criterio 7. Recursos materiales](./docs/Criterio 7 Recursos Materiales.pdf)
+- [Criterio 8.1. Resultados previstos: Indicadores](./docs/Criterio 8.1 Resultados previstos indicadores.pdf)
+- [Criterio 8.2. Procedimiento para valorar progreso y resultados de aprendizaje ](./docs/Criterio 8.2 Procedimiento para valorar progreso y resultados de aprendizaje.pdf)
+- [Criterio 10. Calendario de implantación](./docs/Criterio 10 Calendario de Implantación.pdf)
+
+
+

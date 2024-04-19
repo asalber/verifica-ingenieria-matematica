@@ -1,9 +1,0 @@
-Id,Actividad,Descripción
-AF1 ,Seminario ,"Actividad formativa teórico-práctica en grupos grandes en la que el profesor explica conceptos teóricos y su aplicación práctica y orienta a los alumnos en la resolución individual de ejercicios, problemas o casos prácticos."
-AF2,Taller práctico,"Actividad formativa en grupos reducidos que requiere el uso intensivo de ordenadores o tecnologías de la información y la comunicación para la resolución de problemas prácticos. Se utilizarán lenguajes de programación como Python, R, Julia, Scala o SQL y aplicaciones como Sagemath, Octave o Bloomberg."
-AF3,Taller grupal,"Actividad formativa en el aula que, bajo la guía del profesor, se orienta al estudio y resolución de ejercicios, problemas o casos prácticos en grupo. "
-AF4,Seguimiento de proyectos,"Actividad formativa presencial que fomenta la resolución de problemas o la ejecución de trabajos técnicos, tanto individualmente como en grupo, con el apoyo, la acción de guía y el seguimiento de un tutor."
-AF5,Pruebas de evaluación,Actividades de evaluación presenciales realizadas por el estudiante en dependencias universitarias.
-AF6,Prácticas externas,Actividad formativa en una empresa externa bajo una doble tutorización por parte de la empresa y la universidad.
-AF7,Trabajo autónomo del estudiante,
-AF8,Trabajo Fin de Grado,"Actividad formativa no presencial fundamentalmente, que, con una guía sistemática del profesor, fomenta el aprendizaje autónomo del alumno y la integración de las competencias y resultados de aprendizaje de la titulación con la realización de un proyecto original en el ámbito del grado de naturaleza profesional con presentación y defensa ante un tribunal universitario. Incluye un número promedio estimado de tutorías presenciales por estudiante."

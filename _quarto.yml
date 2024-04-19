@@ -1,0 +1,22 @@
+project:
+  type: website
+  render: 
+    - index.qmd
+    - plan-estudios.qmd
+  output-dir: docs
+
+website:
+  title: "Grado en Ingeniería Matemática"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: plan-estudios.qmd
+        text: Plan de Estudios
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: true
